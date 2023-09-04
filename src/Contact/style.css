@@ -1,31 +1,33 @@
+/* Default styling for larger screens */
 .yellow-circle {
     width: 617px;
     height: 617px;
     background-color: #FAFF00;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-left: 150px; 
-   margin-top: 150px;
+    margin-left: 150px;
+    margin-top: 150px;
 }
 
 .green-circle {
     width: 298px;
     height: 298px;
     background-color: #029C36;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 130px;
     margin-top: -620px;
 }
+
 #atembo img {
     width: 580px;
     height: 570px;
     border-radius: 50%;
-    margin-left: 180px; 
+    margin-left: 180px;
     margin-top: -230px;
 }
 
@@ -44,7 +46,7 @@
     border-radius: 10px;
     border: 2px solid #029C36;
     font-size: 18px;
-    padding: 10px;    
+    padding: 10px;
     margin-bottom: 20px;
 }
 
@@ -63,13 +65,12 @@
     cursor: pointer;
 }
 
-
-
-#team{
+#team {
     margin-left: 45%;
     font-size: 48px;
     margin-top: 80px;
 }
+
 .team-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,4 +91,98 @@
     height: 195px;
     border-radius: 50%;
     margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+
+/* Screen size 768px and smaller */
+@media screen and (max-width: 768px) {
+    .yellow-circle {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .green-circle {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    #atembo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .form-container {
+        margin: 0;
+        text-align: center;
+    }
+
+    .input-field,
+    .textarea-field {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .submit-button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Screen size 468px and smaller */
+@media screen and (max-width: 468px) {
+    .yellow-circle {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .green-circle {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    #atembo img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .form-container {
+        margin: 0;
+        text-align: center;
+    }
+
+    .input-field,
+    .textarea-field {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .submit-button {
+        width: 100%;
+        max-width: 150px;
+    }
 }
