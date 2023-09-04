@@ -1,0 +1,93 @@
+.yellow-circle {
+    width: 617px;
+    height: 617px;
+    background-color: #FAFF00;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 150px; 
+   margin-top: 150px;
+}
+
+.green-circle {
+    width: 298px;
+    height: 298px;
+    background-color: #029C36;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: -620px;
+}
+#atembo img {
+    width: 580px;
+    height: 570px;
+    border-radius: 50%;
+    margin-left: 180px; 
+    margin-top: -230px;
+}
+
+.form-container {
+    margin-left: 50%;
+    margin-top: -40%;
+    color: #029C36;
+    font-size: 25px;
+    position: relative;
+}
+
+.input-field,
+.textarea-field {
+    width: 428px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #029C36;
+    font-size: 18px;
+    padding: 10px;    
+    margin-bottom: 20px;
+}
+
+.textarea-field {
+    height: 293px;
+}
+
+.submit-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2CB908;
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#team{
+    margin-left: 45%;
+    font-size: 48px;
+    margin-top: 80px;
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.team-member {
+    width: 195px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.team-image {
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
